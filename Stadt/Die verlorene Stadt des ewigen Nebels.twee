@@ -1,0 +1,186 @@
+:: StoryTitle
+Die verlorene Stadt des ewigen Nebels
+
+
+:: StoryData
+{
+  "ifid": "D437D436-B69F-4BD3-9D2F-5E4D9ADB667B",
+  "format": "Harlowe",
+  "format-version": "3.3.7",
+  "start": "Die verlorene Stadt des ewigen Nebels",
+  "zoom": 0.3
+}
+
+
+:: Das Buch aufnehmen und durchblättern {"position":"2400,1000","size":"100,100"}
+(text-colour:black)+(bg:#f8f9fa)[Das Geheimnis des Buches]
+
+Du nimmst das uralte Buch auf und blätterst darin. Es enthält verblasste Karten und geheimnisvolle Zeichnungen. Eine der Seiten zeigt eine Karte der Umgebung mit einer verblassten Inschrift: "Die verlorene Stadt des ewigen Nebels." Das scheint der einzige Hinweis auf deinem Weg zu sein. Du hörst ein leises Flüstern, als ob der Wald dir etwas mitteilen wollte. Was ist deine nächste Aktion? Wähle!
+
+(text-colour:black)+(bg:#adb5bd)[[Dem Flüstern im Wald lauschen]](text-colour:black)
+
+(text-colour:black)+(bg:#adb5bd)[[Die Karte genauer studieren]]
+
+
+:: Das Gebüsch begutachten {"position":"2700,800","size":"100,100"}
+(text-colour:black)+(bg:#f8f9fa)[Vogelattacke]
+
+Du läufst dem Geräusch hinterher und untersuchst das Gebüsch. Ist da etwa was heruntergefallen? Das Geräusch wird immer lauter und der linke Strauch neben dir beginnt sich zu bewegen. Du läufst darauf zu und schaust under den Blättervorhang. Du hast einen brütenden Raabe gestört! Plötzlich hörst du lautes kreischen und spürst Klauen in deinem Gesicht. Um dich herum wird alles schwarz.
+
+(text-colour:black)+(bg:#adb5bd)[[Weiter?->Start]]
+
+
+:: Dem Flüstern im Wald lauschen {"position":"2600,1200","size":"100,100"}
+(text-colour:black)+(bg:#f8f9fa)[Dem Flüstern folgen]
+
+Du lauschst dem Flüstern im Wald. Es führt dich tiefer in den Nebel, wo der Weg enger und dunkler wird. Plötzlich erscheint eine schemenhafte Gestalt vor dir. Es ist ein geisterhafter Wächter, der dir sagt, dass die verlorene Stadt des ewigen Nebels in den Tiefen des Waldes liegt, aber der Weg dorthin gefährlich ist. Er gibt dir einen silbernen Schlüssel und warnt dich, vorsichtig zu sein. Was wirst du tun?
+
+(text-colour:black)+(bg:#adb5bd)[[Den Weg in die Tiefen des Waldes fortsetzen]]
+
+(text-colour:black)+(bg:#adb5bd)[[Den Wächter nach weiteren Hinweisen fragen]]
+
+
+:: Den Wasserfall untersuchen {"position":"2100,800","size":"100,100"}
+(text-colour:black)+(bg:#f8f9fa)[Der mysteriöse Wasserfall]
+
+Du entscheidest dich den Wasserfall genauer unter die Lupe zu nehmen. Dir fallen zwei Dinge ins Auge. Du erkennst einen dunklen Gang hinter dem Wasserfall. Er weckt dein Interesse. Aber dann ist da noch dieser Schatten, oben am Anfang des Wasserfalls. Eine kleine düstere Gestalt, mit glitzerden gelben Augen. Du bist zwiegespalten, welchen Weg du einschlagen sollst. Wähle!
+
+(text-colour:black)+(bg:#adb5bd)[[Den Gang hinter dem Wasserfall untersuchen->Rutschige Angelegenheit]]
+
+(text-colour:black)+(bg:#adb5bd)[[An die Spitz des Wasserfalls klettern->Rutschige Angelegenheit]]
+
+
+
+
+:: Den Weg in die Tiefen des Waldes fortsetzen {"position":"2600,1400","size":"100,100"}
+(text-colour:black)+(bg:#f8f9fa)[Das Rätsel des silbernen Schlüssels]
+
+Du entscheidest dich, den Weg in die Tiefen des Waldes fortzusetzen. Der Nebel wird immer dichter, und du kannst kaum noch die Hand vor Augen sehen. Plötzlich stehst du vor einer großen, mysteriösen Tür. Der silberne Schlüssel, den du erhalten hast, passt perfekt in das Schloss. Du öffnest die Tür und trittst in die verlorene Stadt des ewigen Nebels ein.
+
+(text-colour:black)+(bg:#adb5bd)[[Weiter?->Ende]]
+
+
+:: Den Wächter nach weiteren Hinweisen fragen {"position":"3500,1200","size":"100,100"}
+(text-colour:black)+(bg:#f8f9fa)[Der verärgerte Wächter]
+
+Der Wächter ist verärgert. Er ist der Meinung er habe dir schon genug geholfen. er zieht sein Schwert halb aus der Halterung und schreit dich an du sollst gehen. Schreckhaft zuckst du zurück, drehst dich um und rennst.
+Also du weit genug vom Wächter weg warst, bleibst du stehen. Es dämmert bereits. Der Nebel wird dichter. Dir wird schwummrig und schwarz vor Augen. Du kannst nichts dagegen tun. Was nun?
+
+(text-colour:black)+(bg:#adb5bd)[[Weiter?->Start]]
+
+
+:: Die Karte genauer studieren {"position":"2200,1200","size":"100,100"}
+(text-colour:black)+(bg:#f8f9fa)[Der Weg zur Stadt?]
+
+Du siehst dir die Karte genauer an und endeckst, dass dort Wege eingezeichnet sind. Alle führen zum gleichen Ziel. Vom Vogelnest zur verlorenen Stadt.
+Einer der beiden Wege ist länger als der andere. Du entscheidest dich einem der Wege in der Karte zu folgen. Doch welchem? Wähle!
+
+(text-colour:black)+(bg:#adb5bd)[[Kurzer Weg]]
+
+(text-colour:black)+(bg:#adb5bd)[[Langer Weg]]
+
+
+:: Die verlorene Stadt des ewigen Nebels {"position":"2300,400","size":"100,100"}
+(text-colour:black)+(bg:#f8f9fa)[Die verlorene Stadt des ewigen Nebels
+]
+Willkommen bei "(text-colour:grey)[Die verlorene Stadt des ewigen Nebels]". Einem textbasierten Abenteuerspiel. Du findest dich in einem geheimnisvollen Wald wieder, umgeben von dichtem Nebel. Dein Ziel ist es, die verlorene Stadt zu finden und das Rätsel um ihren Untergang zu lösen. Wirst du die Stadt wiederfinden oder für immer im Nebel verloren gehen? Wähle weise!
+
+(bg:#2b8a3e)[(text-colour:white)[[Start]]] (text-colour:black)[..........]  (bg:#c92a2a)[(text-colour:white)[[Ich traue mich nicht]]]
+
+
+:: Ende {"position":"4000,1500","size":"100,100"}
+(text-colour:black)+(bg:#f8f9fa)[Ende?]
+
+Herzlichen Glückwunsch! Du hast es geschafft dich in der verlorenen Stadt vor einer Nacht im Nebel zu schützen.
+Hast du alle Geheimnisse, die der Wald verschleiert aufgedeckt?
+Du kannst dein Abenteuer von vorne beginnen und mehr entdecken. Du kannst auch hier bleiben und zufireden mit deiner Leistung sein.
+
+(text-colour:black)+(bg:#adb5bd)[[Nochmal?->Start]](text-colour:black)
+
+(text-colour:black)+(bg:#adb5bd)[[Nein danke, ich bleibe hier.]]
+
+
+:: Folge dem Flusslauf {"position":"2300,800","size":"100,100"}
+(text-colour:black)+(bg:#f8f9fa)[Das Flüstern des Flusses]
+
+Du entscheidest dich, dem Flusslauf zu folgen. Die Geräusche des Wassers werden lauter, und der Nebel lichtet sich ein wenig. Bald erreichst du eine Lichtung, in der sich der Fluss zu einem malerischen Wasserfall ergießt. Aber da bemerkst du etwas Seltsames – am Ufer des Flusses liegt ein uraltes Buch, das scheinbar von keiner menschlichen Hand dort platziert wurde. Was wirst du tun? Wähle!
+
+(text-colour:black)+(bg:#adb5bd)[[Das Buch aufnehmen und durchblättern]]
+
+(text-colour:black)+(bg:#adb5bd)[[Den Wasserfall untersuchen]]
+
+
+:: Folge dem Vogelrufen {"position":"2500,800","size":"100,100"}
+(text-colour:black)+(bg:#f8f9fa)[Die verlorenen Vögel]
+
+Du entscheidest dich, dem Lebendigen nachzugehen und folgst dem zwitschern der Vögel. Während die Vogellaute immer lauter werden, so wird auch der Wald immer dichter. Der Nebel legt sich und du stehst zwischen riesigen Bäumen. In einer Baumkrone endeckst du ein großes Nest. Aber warte, glitzert da etwa etwas? Du bemerkst einen schillernden Smaragd, in ein uraltes Buch eingelassen, dass neben den Küken liegt. Du hörst ein Rascheln aus dem Gebüsch. 
+
+(text-colour:black)+(bg:#adb5bd)[[Das Buch aufnehmen und durchblättern]]
+
+(text-colour:black)+(bg:#adb5bd)[[Das Gebüsch begutachten]]
+
+
+:: Ich traue mich nicht {"position":"2500,400","size":"100,100"}
+(text-colour:black)+(bg:#f8f9fa)[Kapitel 1: Der Wald des Vergessens]
+
+Das ist sehr Schade. Komme gerne wieder wenn du dir mehr Mut gesammelt hast.
+
+
+
+
+:: Kurzer Weg {"position":"2300,1400","size":"100,100"}
+(text-colour:black)+(bg:#f8f9fa)[Die mysteriöse Tür]
+
+Nach langem weitergehen stehst du plötzlich vor einer großen, mysteriösen Tür. Es scheint so, als braucht man einen Schlüssel der perfekt in das Schloss passt, um die Türe zu öffnen. 
+
+(text-colour:black)+(bg:#adb5bd)[[Die Nacht vor der Tür verbringen->Platzhalter]]
+
+(text-colour:black)+(bg:#adb5bd)[[Losgehen und einen Schlüssel suchen->Platzhalter]]
+
+
+
+:: Langer Weg {"position":"2100,1400","size":"100,100"}
+(text-colour:black)+(bg:#f8f9fa)[Das Rätsel des silbernen Schlüssels]
+
+Du entscheidest dich, den langen Weg in die Tiefen des Waldes nehmen. Der Nebel wird immer dichter, und du kannst kaum noch die Hand vor Augen sehen. Auf dem Weg fällt die eine große Holztruhe auf. Du entscheidest dic diese zu öffnen. In ihr ist nichts als ein silberner Schlüssel. Du entscheidest dich den Schlüssel mitzunehmen.
+
+Nach langem weitergehen stehst du plötzlich vor einer großen, mysteriösen Tür. Der silberne Schlüssel, den du in der Truhe gefunden hast, passt perfekt in das Schloss. Du öffnest die Tür und trittst in die verlorene Stadt des ewigen Nebels ein.
+
+(text-colour:black)+(bg:#adb5bd)[[Weiter?->Ende]]
+
+
+:: Nein danke, ich bleibe hier. {"position":"3800,1700","size":"100,100"}
+(text-colour:black)+(bg:#f8f9fa)[Ende]
+
+Du entscheidest dich in der verlorenen Stadt zu bleiben und dich dort niederzulassen. Du hast alles was du brauchst, um dort glücklich Leben zu können.
+
+
+:: Platzhalter {"position":"1300,1000","size":"100,100"}
+Es dämmert bereits. Der Nebel wird dichter. Dir wird schwummrig und schwarz vor Augen. Du kannst nichts dagegen tun. Was nun?
+
+(text-colour:black)+(bg:#adb5bd)[[Weiter?->Start]]
+
+
+:: Rutschige Angelegenheit {"position":"1900,800","size":"100,100"}
+(text-colour:black)+(bg:#f8f9fa)[Rutschige Angelegenheit]
+
+Du entscheidest dich, herauszufinden was sich hinter deinem Ziel verbirgt. Der steinige Boden ist beschichtet mit feuchten Moos. Schritt für Schritt näherst du dich. Doch dann, ein falscher Schritt. Der Boden wird dir unter den Füßen weggerissen, du rutschst aus! In hohem Bogen landest du im Fluss. Durch die enorme Wucht knallt dein Kopf auf einen Stein am Flussbett.
+
+(text-colour:black)+(bg:#adb5bd)[[Weiter?->Start]]
+
+
+:: Start {"position":"2300,600","size":"100,100"}
+(text-colour:black)+(bg:#f8f9fa)[ Der Wald des Vergessens]
+
+Du erwachst in einem Wald, umgeben von dichtem Nebel. Dein Herz pocht vor Aufregung, während du dich umsiehst. Der Weg vor dir ist nur schwach zu erkennen, aber du beschließt, voranzuschreiten. Nach einigen Schritten hörst du seltsame Geräusche in der Ferne. Ein Fluss plätschert, und Vögel singen, als ob sie dir den Weg weisen würden. Welchen Pfad wirst du einschlagen? Wähle!
+
+(text-colour:black)+(bg:#adb5bd)[[Folge dem Flusslauf]]
+
+(text-colour:black)+(bg:#adb5bd)[[Folge dem Vogelrufen]]
+
+
+
+:: StoryStylesheet [stylesheet]
+tw-sidebar {
+    display: none;
+}

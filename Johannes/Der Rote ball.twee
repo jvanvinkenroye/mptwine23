@@ -1,0 +1,129 @@
+:: StoryTitle
+Der Rote ball
+
+
+:: StoryData
+{
+  "ifid": "85E69928-56C6-45E3-83AF-183EC3FCF405",
+  "format": "Harlowe",
+  "format-version": "3.3.7",
+  "start": "Charakterwahl",
+  "tag-colors": {
+    "Entscheidungsfrage": "orange"
+  },
+  "zoom": 0.6
+}
+
+
+:: 1. Krankheitstag + Mutter {"position":"825,1475","size":"100,100"}
+*Du wachst am nächsten Tag auf und fühlst dich ein wenig Matt. Deine Mutter kocht dir eine Suppe und schickt dich wieder ins Bett.*
+
+[[Lege dich wieder schlafen->2. Krankheitstag + Mutter]]
+
+
+:: 2. Krankheitstag + Mutter {"position":"675,1625","size":"100,100"}
+*Als du am nächsten tag aufwachst geht es dir gar nicht gut. Der Hase muss dich mit der mysteriösen Krankheit angesteckt haben. Mit starkem Fieber und Gliederschmerzen schaffst du es, die Suppe deiner Mutter zu löffeln.*
+
+*Völlig entkräftet [[legst du dich wieder schlafen->3. Krankheitstag + Mutter]]
+
+
+:: 3. Krankheitstag + Mutter {"position":"950,1725","size":"100,100"}
+*Du wachst am nächsten Tag durch einen Hustanfall auf, bei dem du gelben Eiter aushustest. Dein Kopf bereitet dir unfassbare Schmerzen und deine Arme kannst du nicht mehr bewegen ohne vor Schmerzen zu ächzen. Deine Mutter macht sich große Sorgen um dich, da sich der Rest deiner Freundesgruppe auch angesteckt zu haben scheint. Sie macht sich auf den Weg den medikus zu holen.*
+
+[[Leg dich wieder schlafen->Sterben]]
+
+
+
+:: Charakterwahl [Entscheidungsfrage] {"position":"600,200","size":"100,100"}
+Es war einmal ein kleines Dorf am Rande eines tiefen Waldes. Es begab sich an dunklen Tag, da verschwand ein Kind aus dem Dorf und ward nie mehr gesehen. 
+
+Diese Geschichte erzählt von Timmy, der den Geschichten der Ältesten keine Achtung schenkte, einer Gruppe Jugendlicher, die einen gemeinsamen Campingtrip planten und um eine dunkle Gestallt die im Wald wohnte.
+
+Wen möchtest du spielen?
+
+[[Timmy->Fußballspiel]], ein kleiner Junge, dessen Geschichte vor langer Zeit begann.
+[[Johannes->Gruppen Story]], der Älteste der Gruppe.
+[[Die dunkle Gestalt im Wald->Hexen Story]]
+
+
+:: Dumm sein {"position":"900,1200","size":"100,100"}
+*Du kommst zuhause an und legst dich nach einem anstrengend Fußballspiel ins Bett:*
+
+[[Lege dich schlafen->3. Krankheitstag + Mutter]]
+
+
+:: Feiern {"position":"700,1000","size":"100,100"}
+*Ihr kommt bei der Feier an und werdet von einem himmlischen Duft von gebratenem Hasen begrüßt. Die Feier geht lange in die nacht hinein. Passend zu dem Hasenbraten gibt es auch vom Dorfschulzen selbstgebrautes Hopfen.*
+
+*Als sich de Feier dem Ende neigt, machst du dich auf den Weg nach Hause*
+
+[[Mach dich auf den Weg nach Hause->Von der Feier nach Hause]]
+
+
+:: Fußballspiel {"position":"600,600","size":"100,100"}
+"Timmy ich steh frei, spiel ab!"
+
+*Max fuchtelt mit den Armen und ruft*
+"MACH IHN REIN TIMMY!"
+
+[[Schieß aufs Tor->Schuss aufs Tor]]
+[[Passe deinem Mitspieler zu->Pass ab]]
+
+
+:: Gruppen Story {"position":"100,600","size":"100,100"}
+
+
+
+:: Hexen Story {"position":"1500,600","size":"100,100"}
+
+
+
+:: Im Wald {"position":"500,1000","size":"100,100"}
+
+
+
+:: Nach hause {"position":"1000,1000","size":"100,100"}
+*Du verabschiedest dich von der feiernden Gruppe und machst dich mit deinem Ball auf den Weg nach Hause. Während du unterwegs bist, fällt dir irgendwann ein Hase auf, der dir neugierig hinterher hoppelt. Du beschleunigst deine Schritte. Seit einiger zeit gibt es in dem Dorf eine Hasenplage, mit welcher eine mysteriöse Krankheit einhergeht.*
+
+*Du bist in Gedanken noch bei deinem Pass welcher das Siegestor erst ermöglichte, als dir dein Ball aus den Händen rutscht. Gedankenverloren greifst du nach dem Ball, als du einen stechenden Schmerz in deinem Arm verspürst, welcher allerdings gleich wieder abebbt.*
+
+[[Sieh dir deinen Arm genauer an->nachschauen]]
+[[Ignoriere es und setze deinen Weg fort->Dumm sein]]
+
+
+:: Pass ab {"position":"800,800","size":"100,100"}
+*Du passt Michael den Ball zu. Ein wunderschöner Pass den Michael mit einem Fallrückzieher in die obere Ecke des Tores schießt*
+
+*Dein Team jubelt Michael begeistert zu. Ihr habt die Partie gewonnen!*
+
+[[Feier zusammen mit deinem Team den Sieg und Michaels Tor.->Feiern]]
+[[Verabschiede dich bei der Gruppe und mache dich auf den Weg nach Hause->Nach hause]]
+
+
+:: Schuss aufs Tor {"position":"500,800","size":"100,100"}
+*Du schießt aufs Tor und verfehlst um einen guten Meter.*
+
+*Michael kommt auf dich zu*
+"Mensch Timmy, warum hast du nicht abgepasst ich stand komplett frei. Hol noch deinen Ball, wir gehen schonmal nach Hause."
+
+[[Gehe in den Wald und hole deinen Ball->Im Wald]]
+
+
+:: Sterben {"position":"1275,1825","size":"100,100"}
+*Du versuchst deine Augen zu öffnen, kannst dich jedoch nicht mehr bewegen. Du fühlst auch das Bett in dem du gelegen hast nicht mehr. Nach einiger zeit, die dir wie eine Ewigkeit vorkommt, realisierst du: Du bist tot.*
+
+[[Fange von vorne an->Charakterwahl]]
+
+
+:: Von der Feier nach Hause {"position":"700,1125","size":"100,100"}
+*Du verabschiedest dich von allen und machst dich mit deinem Ball auf den Weg nach Hause. Während du unterwegs bist, fällt dir irgendwann ein Hase auf, der dir neugierig hinterher hoppelt. Du beschleunigst deine Schritte. Seit einiger zeit gibt es in dem Dorf eine Hasenplage, mit welcher eine mysteriöse Krankheit einhergeht.*
+
+[[Beschleunige deinen Schritt noch weiter und lege dich zuhause schlafen->1. Krankheitstag + Mutter]]
+
+
+:: nachschauen {"position":"1100,1200","size":"100,100"}
+*Du schaust dir deinen Arm genauer an und siehst eine kleine Bisswunde an deinem Unterarm. Der Hase muss dich gebissen haben, als du nach dem Ball gegriffen hast.*
+
+*Als du zuhause ankommst erzählst du deiner Mutter von dem hasenbiss, woraufhin sie dir die Wunde mit Schnaps desinfiziert, einen Verband um den Arm anlegt und dich ins Bett schickt*
+
+[[Leg dich schlafen->1. Krankheitstag + Mutter]]
